@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <!--meta name="viewport" content="width=device-width, initial-scale=1.0"-->
+        <title>Dolce Gusto</title>
+        <link rel="stylesheet" href="./css/colores.css">
+    </head>
+<body>
+    <header class="grupo">
+        <div>
+            <img class="banner" src="C:\Users\josem\Documents\FrontEnd_Innovaccion\Pasteleria\image\Banner.png">
+        </div>
+        <div>
+            <img class="logo" src="C:\Users\josem\Documents\FrontEnd_Innovaccion\Pasteleria\image\DolceGusto.png">
+        </div>
+        <br>
+        <nav>
+            <ul class="nav">
+                <li><a class="link" href="C:/Users/josem/Documents/FrontEnd_Innovaccion/Pasteria/contacto.html">Contacto</a></li>
+                <li>Seguimiento de pedido</li>
+                <li>Realiza tu pedido</li>
+                <li><a class="link" href="C:/Users/josem/Documents/FrontEnd_Innovaccion/Pasteleria/index.html">Nuestros Pasteles</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <table class="tabla" align="center">
+            <tr>
+                <th colspan="2">Ingresa tus datos de envío</th>
+            </tr>
+            <tr>
+                <td>Nombre:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Telefono:</td>
+                <td><input type="tel"></td>
+            </tr>
+            <tr>
+                <td>Correo electronico:</td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td>Descripción general de pedido <br>(en caso deser necesario)</td>
+                <td><textarea rows="7" cols="21"></textarea></td>
+            </tr>
+            <tr>
+                <td>Datos de pedido</td>
+                <td>Sabor y Adornos seleccionados</td>
+            </tr>
+        </table>
+    </section>
+    <div align="center">
+        <a><input type="submit" value="Realizar Pedido" onclick="enviar()"></a>
+    </div>
+    <script>
+        function enviar() {
+          alert("Su pedido ha sido realizado");
+          window.location.href="C:/Users/josem/Documents/FrontEnd_Innovaccion/Pasteleria/Index.html"
+        }
+        </script>
+</body>
+<footer>
+    <div class="food">
+        copy
+    </div>
+</footer>
+</html>
