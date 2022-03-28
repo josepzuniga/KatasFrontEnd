@@ -1,0 +1,80 @@
+@font-face {
+    font-family: Pokemon;
+    src: url('E:/HTML/FrontEnd_Innovaccion/despliege JS/pokedex/font/Pokemon Solid.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: pixel;
+    src: url("E:/HTML/FrontEnd_Innovaccion/despliege JS/pokedex/font/04B_30__.ttf") format('truetype');
+}
+
+.fondo{
+    background-image: url("E:/HTML/FrontEnd_Innovaccion/despliege JS/pokedex/img/Pokemon-City.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.titulo{
+    text-align: center;
+    font-family: Pokemon;
+}
+
+.pokedex{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.pokedex img{
+    border-radius: 7px;
+    justify-content: center;
+    height: 70%;
+    position: absolute;
+    z-index: -1;
+    box-shadow: 4px 4px 6px rgba(131, 131, 131, 0.644);
+}
+
+.centrado{
+    text-align: center;
+}
+
+.contenido{
+    line-height: 10px;
+    font-family: pixel;
+    color:cadetblue;
+}
+
+input{
+    font-family: pixel;
+    background-color: rgb(248, 182, 39);
+    border-radius: 5px;
+    height: 20px;
+    width: 200px;
+}
+
+
+.btn{
+    background-image: url("E:/HTML/FrontEnd_Innovaccion/despliege JS/pokedex/img/btn_srch.PNG");
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    background-position: center;
+    border: 0px;
+    box-shadow: 4px 4px 6px rgba(131, 131, 131, 0.644);
+    height: 30px;
+    width: 30px;
+}
+
+.btn:hover{
+    height: 40px;
+    width: 40px;
+    border: 2px;
+}
+
+.contenido div{
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+    font-size: 18px;
+}
